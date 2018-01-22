@@ -16,6 +16,10 @@
 #include <map>
 #include "ServerStructs.h"
 #include <pthread.h>
+#include "Task.h"
+#include "ThreadPool.h"
+#include <iostream>
+#include <unistd.h>
 
 class Controller {
 
@@ -28,8 +32,22 @@ private:
 
     vector <string> joinable_games; // vector of joinable games
 
+    vector <Task*> tasks;
+
+    ThreadPool *threadPool;
+
 public:
 
+    Controller() {
+        this->threadPool = NULL;
+    }
+
+    ~Controller() {
+        for (unsigned int i = 0; i < tasks.size(); i++) {
+            delete this->tasks[i];
+        }
+        delete threadPool;
+    }
     // runners
     /**
      This function runs the server, calls mainThreadListener.
@@ -159,6 +177,8 @@ public:
      @return struct CmdArg
      */
     CmdArg parseMessage(string msg, int clientSocket);
+
+    void addNewTask(Task* task);
 
 };
 

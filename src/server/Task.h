@@ -8,6 +8,15 @@
 
 class Task {
 
+private:
+    void *(*func)(void *arg);
+    void *arg;
+
+public:
+    Task(void * (*func)(void *arg), void* arg);
+    virtual ~Task() {}
+    void execute();
+
 };
 
 

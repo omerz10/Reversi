@@ -118,7 +118,6 @@ void Lobby::menu() {
         Board board = Board(BOARD_SIZE);
         ServerDetails serverDetails = getServerDetails(&path);
         Client client = Client(serverDetails.serverIP.c_str(), serverDetails.serverPort);
-
         // connect
         client.connectToServer();
         runOnlineGame(&client, &board, &gameLogic);
@@ -131,6 +130,10 @@ void Lobby::runOnlineGame(Client *client, Board *board, GenericLogic *gameLogic)
     int player = 3;
     bool flag = false;
     int selection;
+    cout << "Waiting for server response" << endl;
+    //read(client->getClientSock(), buffer, DATALEN);
+    cout << "Connected to server" << endl;
+
     do {
         cout << "Please choose one of the following options:" << endl
              << "1. Start a new online game." << endl
@@ -149,8 +152,6 @@ void Lobby::runOnlineGame(Client *client, Board *board, GenericLogic *gameLogic)
                 stringstream ss1(userInput);
                 ss1 >> commandName;
                 ss1 >> commandParam;
-                //cin >> commandName >> commandParam;
-                //cin.get();
                 flag = validateInput(Start, commandName, commandParam);
                 if (flag) {
                     // create command
@@ -188,13 +189,10 @@ void Lobby::runOnlineGame(Client *client, Board *board, GenericLogic *gameLogic)
                 stringstream ss2(userInput);
                 ss2 >> commandName;
                 ss2 >> commandParam;
-                //cin >> commandName >> commandParam;
-                //cin.get();
                 flag = validateInput(Join, commandName, commandParam);
                 if (flag) {
                     // create command
                     command = commandName + " " + commandParam;
-
                     // memsets
                     memset(temp, '\0', DATALEN);
                     memset(buffer, '\0', DATALEN);
@@ -229,7 +227,6 @@ void Lobby::runOnlineGame(Client *client, Board *board, GenericLogic *gameLogic)
                 ss3 >> commandName;
                 flag = validateInput(ListGames, commandName, "");
                 if (flag) {
-
                     // memsets
                     memset(temp, '\0', DATALEN);
                     // send to server

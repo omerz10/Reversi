@@ -47,7 +47,7 @@ set(SERVER_FILES
         src/server/Server.h
         src/server/ServerStructs.h
         src/server/StartCommand.cpp
-        src/server/StartCommand.h src/server/Task.cpp src/server/Task.h)
+        src/server/StartCommand.h src/server/Task.cpp src/server/Task.h src/server/ThreadPool.cpp src/server/ThreadPool.h)
 
 add_executable(Client ${CLIENT_FILES} src/client/main.cpp src/client/AIPlayer.cpp
         src/client/AIPlayer.h

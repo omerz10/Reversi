@@ -9,6 +9,7 @@
 
 #define MAX_CLIENTS 1000
 #define DATALEN 512
+#define THREADS_NUM 5
 
 
 CommandManager *cManager;
@@ -31,7 +32,7 @@ void executeEnvelope(ClientThread* clientT, string command) {
 
 void *handleClient(void *data) {
     ClientData *cData = (ClientData *)data;
-
+    //write(cData->clientThread.clientSocket, "You connected to server",DATALEN);
     // get command from client
     char buffer[DATALEN] = "";
     string commandString;
@@ -49,7 +50,7 @@ void *handleClient(void *data) {
     return NULL;
 }
 void *clientsListener(void* serverData) {
-    pthread_t newThread;
+    //pthread_t newThread;
     ClientData clientData;
     bzero((void *) &clientData, sizeof(clientData));
     ServerData *sData = (ServerData *) serverData;
@@ -71,25 +72,21 @@ void *clientsListener(void* serverData) {
         clientData.clientThread.status = ClientChoice;
         clientData.controller = sData->controller;
 
-        int rc = pthread_create(&newThread, NULL, handleClient, &clientData);
-        if (rc) {
-            cout << "Error: unable to create thread, " << rc << endl;
-            exit(-1);
-        }
-        // adding thread
-        sData->controller->addThread(newThread);
+        Task* task = new Task(handleClient, &clientData);
+        sData->controller->addNewTask(task);
         // remove sockets and statuses from vector of ClientThread
         sData->controller->removeSockets(sData->controller->getSocketsStatus());
     }
     return NULL;
 }
 
+
 /*
  * main thread listener
  */
 void Controller::mainThreadListener(int serverSocket) {
+    this->threadPool = new ThreadPool(THREADS_NUM);
     pthread_t mainThread;
-
     ServerData serverData;
     bzero((void*) &serverData, sizeof(serverData));
 
@@ -111,12 +108,7 @@ void Controller::mainThreadListener(int serverSocket) {
         getline(cin, input);
     } while(strcmp(input.c_str(), "exit") != 0);
 
-    // close all threads
-    for (unsigned int i = 0; i < getClientsThreads().size(); i++) {
-        pthread_cancel(getClientsThreads()[i]);
-        pthread_join(getClientsThreads()[i], NULL);
-    }
-
+    threadPool->terminate();
     // close main thread
     pthread_cancel(mainThread);
     pthread_join(mainThread, NULL);
@@ -300,5 +292,10 @@ string Controller::getGameNames() {
         res += this->joinable_games[i] + " ";
     }
     return res;
+}
+
+void Controller::addNewTask(Task* task) {
+    this->tasks.push_back(task);
+    this->threadPool->addTask(task);
 }
 

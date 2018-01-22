@@ -61,7 +61,6 @@ void JoinCommand::execute(ClientThread *clientT, string args) {
             throw ("Error: sending to player 1");
         }
     }
-
 }
 
 

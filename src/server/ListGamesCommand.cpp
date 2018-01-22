@@ -8,7 +8,6 @@
 
 void ListGamesCommand::execute(ClientThread *clientT, string args) {
     char temp[DATALEN] = "";
-    //map<string, GameThread >::iterator it;
     vector<string> :: iterator it;
     string result;
 

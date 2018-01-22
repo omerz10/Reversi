@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Reversi"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server">
+				<Option output="/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server/fast">
+				<Option output="/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Client">
+				<Option output="/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 Client"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Client/fast">
+				<Option output="/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 Client/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/AIPlayer.cpp">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/AIPlayer.h">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Board.cpp">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Board.h">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Cell.cpp">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Cell.h">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Client.cpp">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Client.h">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Game.cpp">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Game.h">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GameFlow.cpp">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GameFlow.h">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GenericLogic.cpp">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GenericLogic.h">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/HumanPlayer.cpp">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/HumanPlayer.h">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Lobby.cpp">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Lobby.h">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Logic.h">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Player.h">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Structs.h">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/main.cpp">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Command.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/CommandManager.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/CommandManager.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Controller.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Controller.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/EndCommand.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/EndCommand.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/JoinCommand.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/JoinCommand.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/ListGamesCommand.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/ListGamesCommand.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/NoMoveCommand.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/NoMoveCommand.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/PlayCommand.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/PlayCommand.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Server.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Server.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/ServerStructs.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/StartCommand.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/StartCommand.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Task.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Task.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/ThreadPool.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/ThreadPool.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/src/server/main.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/omerz/CLionProjects/c++/ex7/Reversi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

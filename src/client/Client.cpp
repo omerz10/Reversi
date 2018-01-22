@@ -45,8 +45,7 @@ void Client::connectToServer() {
     if (connect(clientSocket, (struct sockaddr *)&serverAddress, sizeof(serverAddress)) == -1) {
         throw "Error connecting to server";
     }
-    cout << "Connected to server" << endl;
-
+    
 }
 
 void Client::waitingForOtherPlayer() { // eat the read

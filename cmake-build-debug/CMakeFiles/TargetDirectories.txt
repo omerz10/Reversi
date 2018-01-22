@@ -1,0 +1,4 @@
+/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles/Server.dir
+/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles/Client.dir
