@@ -1,0 +1,55 @@
+[33mcommit a828098e22dc46a4f72195c7ef3ef2e412406069[m
+Author: Omer <omerz1990@gmail.com>
+Date:   Mon Jan 22 21:38:59 2018 +0200
+
+    update
+
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..419b78e[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -0,0 +1,636 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">[m
+[32m+[m[32m    <generated>[m
+[32m+[m[32m      <config projectName="Reversi" targetName="Server" />[m
+[32m+[m[32m      <config projectName="Reversi" targetName="Client" />[m
+[32m+[m[32m    </generated>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="CMakeSettings">[m
+[32m+[m[32m    <configurations>[m
+[32m+[m[32m      <configuration CONFIG_NAME="Debug" />[m
+[32m+[m[32m    </configurations>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="ChangeListManager">[m
+[32m+[m[32m    <list default="true" id="03dd8045-1b87-459d-af6e-7758d5149dce" name="Default" comment="">[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/server/ThreadPool.cpp" />[m
+[32m+[m[32m      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/server/ThreadPool.h" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exe/clientConfig.txt" afterPath="$PROJECT_DIR$/exe/clientConfig.txt" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exe/serverConfig.txt" afterPath="$PROJECT_DIR$/exe/serverConfig.txt" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/Client.cpp" afterPath="$PROJECT_DIR$/src/client/Client.cpp" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/Lobby.cpp" afterPath="$PROJECT_DIR$/src/client/Lobby.cpp" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Controller.cpp" afterPath="$PROJECT_DIR$/src/server/Controller.cpp" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Controller.h" afterPath="$PROJECT_DIR$/src/server/Controller.h" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/JoinCommand.cpp" afterPath="$PROJECT_DIR$/src/server/JoinCommand.cpp" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/ListGamesCommand.cpp" afterPath="$PROJECT_DIR$/src/server/ListGamesCommand.cpp" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Task.cpp" afterPath="$PROJECT_DIR$/src/server/Task.cpp" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Task.h" afterPath="$PROJECT_DIR$/src/server/Task.h" />[m
+[32m+[m[32m    </list>[m
+[32m+[m[32m    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />[m
+[32m+[m[32m    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />[m
+[32m+[m[32m    <option name="TRACKING_ENABLED" value="true" />[m
+[32m+[m[32m    <option name="SHOW_DIALOG" value="false" />[m
+[32m+[m[32m    <option name="HIGHLIGHT_CONFLICTS" value="true" />[m
+[32m+[m[32m    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />[m
+[32m+[m[32m    <option name="LAST_RESOLUTION" value="IGNORE" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="FileEditorManager">[m
+[32m+[m[32m    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">[m
+[32m+[m[32m      <file leaf-file-name="Lobby.cpp" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/src/client/Lobby.cpp">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state 
