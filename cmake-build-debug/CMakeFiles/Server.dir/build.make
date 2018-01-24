@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/omerz/Downloads/clion-2017.2.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/omerz/Downloads/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omerz/CLionProjects/c++/ex7/Reversi
+CMAKE_SOURCE_DIR = /Users/david/CLionProjects/Reversi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/david/CLionProjects/Reversi/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Server.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Server.dir/flags.make
 
 CMakeFiles/Server.dir/src/server/CommandManager.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/server/CommandManager.cpp.o: ../src/server/CommandManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server.dir/src/server/CommandManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/CommandManager.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/CommandManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server.dir/src/server/CommandManager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/CommandManager.cpp.o -c /Users/david/CLionProjects/Reversi/src/server/CommandManager.cpp
 
 CMakeFiles/Server.dir/src/server/CommandManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/server/CommandManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/CommandManager.cpp > CMakeFiles/Server.dir/src/server/CommandManager.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/server/CommandManager.cpp > CMakeFiles/Server.dir/src/server/CommandManager.cpp.i
 
 CMakeFiles/Server.dir/src/server/CommandManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/server/CommandManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/CommandManager.cpp -o CMakeFiles/Server.dir/src/server/CommandManager.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/server/CommandManager.cpp -o CMakeFiles/Server.dir/src/server/CommandManager.cpp.s
 
 CMakeFiles/Server.dir/src/server/CommandManager.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Server.dir/src/server/CommandManager.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/Server.dir/src/server/Controller.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/server/Controller.cpp.o: ../src/server/Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Server.dir/src/server/Controller.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/Controller.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Server.dir/src/server/Controller.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/Controller.cpp.o -c /Users/david/CLionProjects/Reversi/src/server/Controller.cpp
 
 CMakeFiles/Server.dir/src/server/Controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/server/Controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Controller.cpp > CMakeFiles/Server.dir/src/server/Controller.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/server/Controller.cpp > CMakeFiles/Server.dir/src/server/Controller.cpp.i
 
 CMakeFiles/Server.dir/src/server/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/server/Controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Controller.cpp -o CMakeFiles/Server.dir/src/server/Controller.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/server/Controller.cpp -o CMakeFiles/Server.dir/src/server/Controller.cpp.s
 
 CMakeFiles/Server.dir/src/server/Controller.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Server.dir/src/server/Controller.cpp.o.provides.build: CMakeFiles/Ser
 
 CMakeFiles/Server.dir/src/server/EndCommand.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/server/EndCommand.cpp.o: ../src/server/EndCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Server.dir/src/server/EndCommand.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/EndCommand.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/EndCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Server.dir/src/server/EndCommand.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/EndCommand.cpp.o -c /Users/david/CLionProjects/Reversi/src/server/EndCommand.cpp
 
 CMakeFiles/Server.dir/src/server/EndCommand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/server/EndCommand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/EndCommand.cpp > CMakeFiles/Server.dir/src/server/EndCommand.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/server/EndCommand.cpp > CMakeFiles/Server.dir/src/server/EndCommand.cpp.i
 
 CMakeFiles/Server.dir/src/server/EndCommand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/server/EndCommand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/EndCommand.cpp -o CMakeFiles/Server.dir/src/server/EndCommand.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/server/EndCommand.cpp -o CMakeFiles/Server.dir/src/server/EndCommand.cpp.s
 
 CMakeFiles/Server.dir/src/server/EndCommand.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Server.dir/src/server/EndCommand.cpp.o.provides.build: CMakeFiles/Ser
 
 CMakeFiles/Server.dir/src/server/JoinCommand.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/server/JoinCommand.cpp.o: ../src/server/JoinCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Server.dir/src/server/JoinCommand.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/JoinCommand.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/JoinCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Server.dir/src/server/JoinCommand.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/JoinCommand.cpp.o -c /Users/david/CLionProjects/Reversi/src/server/JoinCommand.cpp
 
 CMakeFiles/Server.dir/src/server/JoinCommand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/server/JoinCommand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/JoinCommand.cpp > CMakeFiles/Server.dir/src/server/JoinCommand.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/server/JoinCommand.cpp > CMakeFiles/Server.dir/src/server/JoinCommand.cpp.i
 
 CMakeFiles/Server.dir/src/server/JoinCommand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/server/JoinCommand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/JoinCommand.cpp -o CMakeFiles/Server.dir/src/server/JoinCommand.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/server/JoinCommand.cpp -o CMakeFiles/Server.dir/src/server/JoinCommand.cpp.s
 
 CMakeFiles/Server.dir/src/server/JoinCommand.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Server.dir/src/server/JoinCommand.cpp.o.provides.build: CMakeFiles/Se
 
 CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.o: ../src/server/ListGamesCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/ListGamesCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.o -c /Users/david/CLionProjects/Reversi/src/server/ListGamesCommand.cpp
 
 CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/ListGamesCommand.cpp > CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/server/ListGamesCommand.cpp > CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.i
 
 CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/ListGamesCommand.cpp -o CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/server/ListGamesCommand.cpp -o CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.s
 
 CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Server.dir/src/server/ListGamesCommand.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/Server.dir/src/server/main.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/server/main.cpp.o: ../src/server/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Server.dir/src/server/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/main.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Server.dir/src/server/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/main.cpp.o -c /Users/david/CLionProjects/Reversi/src/server/main.cpp
 
 CMakeFiles/Server.dir/src/server/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/server/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/main.cpp > CMakeFiles/Server.dir/src/server/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/server/main.cpp > CMakeFiles/Server.dir/src/server/main.cpp.i
 
 CMakeFiles/Server.dir/src/server/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/server/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/main.cpp -o CMakeFiles/Server.dir/src/server/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/server/main.cpp -o CMakeFiles/Server.dir/src/server/main.cpp.s
 
 CMakeFiles/Server.dir/src/server/main.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/Server.dir/src/server/main.cpp.o.provides.build: CMakeFiles/Server.di
 
 CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.o: ../src/server/NoMoveCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/NoMoveCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.o -c /Users/david/CLionProjects/Reversi/src/server/NoMoveCommand.cpp
 
 CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/NoMoveCommand.cpp > CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/server/NoMoveCommand.cpp > CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.i
 
 CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/NoMoveCommand.cpp -o CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/server/NoMoveCommand.cpp -o CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.s
 
 CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/Server.dir/src/server/NoMoveCommand.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/Server.dir/src/server/PlayCommand.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/server/PlayCommand.cpp.o: ../src/server/PlayCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Server.dir/src/server/PlayCommand.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/PlayCommand.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/PlayCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Server.dir/src/server/PlayCommand.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/PlayCommand.cpp.o -c /Users/david/CLionProjects/Reversi/src/server/PlayCommand.cpp
 
 CMakeFiles/Server.dir/src/server/PlayCommand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/server/PlayCommand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/PlayCommand.cpp > CMakeFiles/Server.dir/src/server/PlayCommand.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/server/PlayCommand.cpp > CMakeFiles/Server.dir/src/server/PlayCommand.cpp.i
 
 CMakeFiles/Server.dir/src/server/PlayCommand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/server/PlayCommand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/PlayCommand.cpp -o CMakeFiles/Server.dir/src/server/PlayCommand.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/server/PlayCommand.cpp -o CMakeFiles/Server.dir/src/server/PlayCommand.cpp.s
 
 CMakeFiles/Server.dir/src/server/PlayCommand.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/Server.dir/src/server/PlayCommand.cpp.o.provides.build: CMakeFiles/Se
 
 CMakeFiles/Server.dir/src/server/Server.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/server/Server.cpp.o: ../src/server/Server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Server.dir/src/server/Server.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/Server.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Server.dir/src/server/Server.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/Server.cpp.o -c /Users/david/CLionProjects/Reversi/src/server/Server.cpp
 
 CMakeFiles/Server.dir/src/server/Server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/server/Server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Server.cpp > CMakeFiles/Server.dir/src/server/Server.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/server/Server.cpp > CMakeFiles/Server.dir/src/server/Server.cpp.i
 
 CMakeFiles/Server.dir/src/server/Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/server/Server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Server.cpp -o CMakeFiles/Server.dir/src/server/Server.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/server/Server.cpp -o CMakeFiles/Server.dir/src/server/Server.cpp.s
 
 CMakeFiles/Server.dir/src/server/Server.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/Server.dir/src/server/Server.cpp.o.provides.build: CMakeFiles/Server.
 
 CMakeFiles/Server.dir/src/server/StartCommand.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/server/StartCommand.cpp.o: ../src/server/StartCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Server.dir/src/server/StartCommand.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/StartCommand.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/StartCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Server.dir/src/server/StartCommand.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/StartCommand.cpp.o -c /Users/david/CLionProjects/Reversi/src/server/StartCommand.cpp
 
 CMakeFiles/Server.dir/src/server/StartCommand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/server/StartCommand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/StartCommand.cpp > CMakeFiles/Server.dir/src/server/StartCommand.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/server/StartCommand.cpp > CMakeFiles/Server.dir/src/server/StartCommand.cpp.i
 
 CMakeFiles/Server.dir/src/server/StartCommand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/server/StartCommand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/StartCommand.cpp -o CMakeFiles/Server.dir/src/server/StartCommand.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/server/StartCommand.cpp -o CMakeFiles/Server.dir/src/server/StartCommand.cpp.s
 
 CMakeFiles/Server.dir/src/server/StartCommand.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/Server.dir/src/server/StartCommand.cpp.o.provides.build: CMakeFiles/S
 
 CMakeFiles/Server.dir/src/server/Task.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/server/Task.cpp.o: ../src/server/Task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Server.dir/src/server/Task.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/Task.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Server.dir/src/server/Task.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/Task.cpp.o -c /Users/david/CLionProjects/Reversi/src/server/Task.cpp
 
 CMakeFiles/Server.dir/src/server/Task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/server/Task.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Task.cpp > CMakeFiles/Server.dir/src/server/Task.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/server/Task.cpp > CMakeFiles/Server.dir/src/server/Task.cpp.i
 
 CMakeFiles/Server.dir/src/server/Task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/server/Task.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/Task.cpp -o CMakeFiles/Server.dir/src/server/Task.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/server/Task.cpp -o CMakeFiles/Server.dir/src/server/Task.cpp.s
 
 CMakeFiles/Server.dir/src/server/Task.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/Server.dir/src/server/Task.cpp.o.provides.build: CMakeFiles/Server.di
 
 CMakeFiles/Server.dir/src/server/ThreadPool.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/server/ThreadPool.cpp.o: ../src/server/ThreadPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Server.dir/src/server/ThreadPool.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/ThreadPool.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/ThreadPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Server.dir/src/server/ThreadPool.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/server/ThreadPool.cpp.o -c /Users/david/CLionProjects/Reversi/src/server/ThreadPool.cpp
 
 CMakeFiles/Server.dir/src/server/ThreadPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/server/ThreadPool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/ThreadPool.cpp > CMakeFiles/Server.dir/src/server/ThreadPool.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/server/ThreadPool.cpp > CMakeFiles/Server.dir/src/server/ThreadPool.cpp.i
 
 CMakeFiles/Server.dir/src/server/ThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/server/ThreadPool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/server/ThreadPool.cpp -o CMakeFiles/Server.dir/src/server/ThreadPool.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/server/ThreadPool.cpp -o CMakeFiles/Server.dir/src/server/ThreadPool.cpp.s
 
 CMakeFiles/Server.dir/src/server/ThreadPool.cpp.o.requires:
 
@@ -377,7 +377,7 @@ Server: CMakeFiles/Server.dir/src/server/Task.cpp.o
 Server: CMakeFiles/Server.dir/src/server/ThreadPool.cpp.o
 Server: CMakeFiles/Server.dir/build.make
 Server: CMakeFiles/Server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -405,6 +405,6 @@ CMakeFiles/Server.dir/clean:
 .PHONY : CMakeFiles/Server.dir/clean
 
 CMakeFiles/Server.dir/depend:
-	cd /home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omerz/CLionProjects/c++/ex7/Reversi /home/omerz/CLionProjects/c++/ex7/Reversi /home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug /home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug /home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles/Server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/david/CLionProjects/Reversi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/david/CLionProjects/Reversi /Users/david/CLionProjects/Reversi /Users/david/CLionProjects/Reversi/cmake-build-debug /Users/david/CLionProjects/Reversi/cmake-build-debug /Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles/Server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Server.dir/depend
 

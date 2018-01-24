@@ -6,45 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/AIPlayer.cpp
+/Users/david/CLionProjects/Reversi/src/client/AIPlayer.cpp
 algorithm
 -
 AIPlayer.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/AIPlayer.h
+/Users/david/CLionProjects/Reversi/src/client/AIPlayer.h
 stdexcept
 -
 limits.h
 -
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/AIPlayer.h
+/Users/david/CLionProjects/Reversi/src/client/AIPlayer.h
 Player.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Player.h
+/Users/david/CLionProjects/Reversi/src/client/Player.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Board.cpp
+/Users/david/CLionProjects/Reversi/src/client/Board.cpp
 Board.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Board.h
+/Users/david/CLionProjects/Reversi/src/client/Board.h
 stdexcept
 -
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Board.h
+/Users/david/CLionProjects/Reversi/src/client/Board.h
 vector
 -
 Cell.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Cell.h
+/Users/david/CLionProjects/Reversi/src/client/Cell.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Cell.cpp
+/Users/david/CLionProjects/Reversi/src/client/Cell.cpp
 Cell.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Cell.h
+/Users/david/CLionProjects/Reversi/src/client/Cell.h
 stdexcept
 -
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Cell.h
+/Users/david/CLionProjects/Reversi/src/client/Cell.h
 iostream
 -
 string
 -
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Client.cpp
+/Users/david/CLionProjects/Reversi/src/client/Client.cpp
 arpa/inet.h
 -
 netdb.h
@@ -52,9 +52,9 @@ netdb.h
 cstdlib
 -
 Client.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Client.h
+/Users/david/CLionProjects/Reversi/src/client/Client.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Client.h
+/Users/david/CLionProjects/Reversi/src/client/Client.h
 sys/socket.h
 -
 netinet/in.h
@@ -68,63 +68,63 @@ iostream
 stdio.h
 -
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Game.cpp
+/Users/david/CLionProjects/Reversi/src/client/Game.cpp
 Game.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Game.h
+/Users/david/CLionProjects/Reversi/src/client/Game.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Game.h
+/Users/david/CLionProjects/Reversi/src/client/Game.h
 Board.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Board.h
+/Users/david/CLionProjects/Reversi/src/client/Board.h
 HumanPlayer.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/HumanPlayer.h
+/Users/david/CLionProjects/Reversi/src/client/HumanPlayer.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GameFlow.cpp
+/Users/david/CLionProjects/Reversi/src/client/GameFlow.cpp
 sstream
 -
 cstdlib
 -
 GameFlow.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GameFlow.h
+/Users/david/CLionProjects/Reversi/src/client/GameFlow.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GameFlow.h
+/Users/david/CLionProjects/Reversi/src/client/GameFlow.h
 Board.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Board.h
+/Users/david/CLionProjects/Reversi/src/client/Board.h
 HumanPlayer.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/HumanPlayer.h
+/Users/david/CLionProjects/Reversi/src/client/HumanPlayer.h
 AIPlayer.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/AIPlayer.h
+/Users/david/CLionProjects/Reversi/src/client/AIPlayer.h
 Game.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Game.h
+/Users/david/CLionProjects/Reversi/src/client/Game.h
 GenericLogic.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GenericLogic.h
+/Users/david/CLionProjects/Reversi/src/client/GenericLogic.h
 Client.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Client.h
+/Users/david/CLionProjects/Reversi/src/client/Client.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GenericLogic.cpp
+/Users/david/CLionProjects/Reversi/src/client/GenericLogic.cpp
 GenericLogic.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GenericLogic.h
+/Users/david/CLionProjects/Reversi/src/client/GenericLogic.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GenericLogic.h
+/Users/david/CLionProjects/Reversi/src/client/GenericLogic.h
 Board.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Board.h
+/Users/david/CLionProjects/Reversi/src/client/Board.h
 Logic.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Logic.h
+/Users/david/CLionProjects/Reversi/src/client/Logic.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/HumanPlayer.cpp
+/Users/david/CLionProjects/Reversi/src/client/HumanPlayer.cpp
 algorithm
 -
 HumanPlayer.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/HumanPlayer.h
+/Users/david/CLionProjects/Reversi/src/client/HumanPlayer.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/HumanPlayer.h
+/Users/david/CLionProjects/Reversi/src/client/HumanPlayer.h
 Player.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Player.h
+/Users/david/CLionProjects/Reversi/src/client/Player.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Lobby.cpp
+/Users/david/CLionProjects/Reversi/src/client/Lobby.cpp
 Lobby.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Lobby.h
+/Users/david/CLionProjects/Reversi/src/client/Lobby.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Lobby.h
+/Users/david/CLionProjects/Reversi/src/client/Lobby.h
 cstdio
 -
 fstream
@@ -132,31 +132,31 @@ fstream
 sstream
 -
 GameFlow.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GameFlow.h
+/Users/david/CLionProjects/Reversi/src/client/GameFlow.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Logic.h
+/Users/david/CLionProjects/Reversi/src/client/Logic.h
 Board.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Board.h
+/Users/david/CLionProjects/Reversi/src/client/Board.h
 Player.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Player.h
+/Users/david/CLionProjects/Reversi/src/client/Player.h
 Structs.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Structs.h
+/Users/david/CLionProjects/Reversi/src/client/Structs.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Player.h
+/Users/david/CLionProjects/Reversi/src/client/Player.h
 iostream
 -
 Board.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Board.h
+/Users/david/CLionProjects/Reversi/src/client/Board.h
 Logic.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Logic.h
+/Users/david/CLionProjects/Reversi/src/client/Logic.h
 Structs.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Structs.h
+/Users/david/CLionProjects/Reversi/src/client/Structs.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Structs.h
+/Users/david/CLionProjects/Reversi/src/client/Structs.h
 Board.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Board.h
+/Users/david/CLionProjects/Reversi/src/client/Board.h
 
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/main.cpp
+/Users/david/CLionProjects/Reversi/src/client/main.cpp
 Lobby.h
-/home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Lobby.h
+/Users/david/CLionProjects/Reversi/src/client/Lobby.h
 

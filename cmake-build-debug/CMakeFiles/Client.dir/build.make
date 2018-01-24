@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/omerz/Downloads/clion-2017.2.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/omerz/Downloads/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omerz/CLionProjects/c++/ex7/Reversi
+CMAKE_SOURCE_DIR = /Users/david/CLionProjects/Reversi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/david/CLionProjects/Reversi/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Client.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Client.dir/flags.make
 
 CMakeFiles/Client.dir/src/client/AIPlayer.cpp.o: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/src/client/AIPlayer.cpp.o: ../src/client/AIPlayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Client.dir/src/client/AIPlayer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/AIPlayer.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/AIPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Client.dir/src/client/AIPlayer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/AIPlayer.cpp.o -c /Users/david/CLionProjects/Reversi/src/client/AIPlayer.cpp
 
 CMakeFiles/Client.dir/src/client/AIPlayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/src/client/AIPlayer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/AIPlayer.cpp > CMakeFiles/Client.dir/src/client/AIPlayer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/client/AIPlayer.cpp > CMakeFiles/Client.dir/src/client/AIPlayer.cpp.i
 
 CMakeFiles/Client.dir/src/client/AIPlayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/src/client/AIPlayer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/AIPlayer.cpp -o CMakeFiles/Client.dir/src/client/AIPlayer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/client/AIPlayer.cpp -o CMakeFiles/Client.dir/src/client/AIPlayer.cpp.s
 
 CMakeFiles/Client.dir/src/client/AIPlayer.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Client.dir/src/client/AIPlayer.cpp.o.provides.build: CMakeFiles/Clien
 
 CMakeFiles/Client.dir/src/client/Board.cpp.o: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/src/client/Board.cpp.o: ../src/client/Board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Client.dir/src/client/Board.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/Board.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Client.dir/src/client/Board.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/Board.cpp.o -c /Users/david/CLionProjects/Reversi/src/client/Board.cpp
 
 CMakeFiles/Client.dir/src/client/Board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/src/client/Board.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Board.cpp > CMakeFiles/Client.dir/src/client/Board.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/client/Board.cpp > CMakeFiles/Client.dir/src/client/Board.cpp.i
 
 CMakeFiles/Client.dir/src/client/Board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/src/client/Board.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Board.cpp -o CMakeFiles/Client.dir/src/client/Board.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/client/Board.cpp -o CMakeFiles/Client.dir/src/client/Board.cpp.s
 
 CMakeFiles/Client.dir/src/client/Board.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Client.dir/src/client/Board.cpp.o.provides.build: CMakeFiles/Client.d
 
 CMakeFiles/Client.dir/src/client/Cell.cpp.o: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/src/client/Cell.cpp.o: ../src/client/Cell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Client.dir/src/client/Cell.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/Cell.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Cell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Client.dir/src/client/Cell.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/Cell.cpp.o -c /Users/david/CLionProjects/Reversi/src/client/Cell.cpp
 
 CMakeFiles/Client.dir/src/client/Cell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/src/client/Cell.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Cell.cpp > CMakeFiles/Client.dir/src/client/Cell.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/client/Cell.cpp > CMakeFiles/Client.dir/src/client/Cell.cpp.i
 
 CMakeFiles/Client.dir/src/client/Cell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/src/client/Cell.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Cell.cpp -o CMakeFiles/Client.dir/src/client/Cell.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/client/Cell.cpp -o CMakeFiles/Client.dir/src/client/Cell.cpp.s
 
 CMakeFiles/Client.dir/src/client/Cell.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Client.dir/src/client/Cell.cpp.o.provides.build: CMakeFiles/Client.di
 
 CMakeFiles/Client.dir/src/client/Client.cpp.o: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/src/client/Client.cpp.o: ../src/client/Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Client.dir/src/client/Client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/Client.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Client.dir/src/client/Client.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/Client.cpp.o -c /Users/david/CLionProjects/Reversi/src/client/Client.cpp
 
 CMakeFiles/Client.dir/src/client/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/src/client/Client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Client.cpp > CMakeFiles/Client.dir/src/client/Client.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/client/Client.cpp > CMakeFiles/Client.dir/src/client/Client.cpp.i
 
 CMakeFiles/Client.dir/src/client/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/src/client/Client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Client.cpp -o CMakeFiles/Client.dir/src/client/Client.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/client/Client.cpp -o CMakeFiles/Client.dir/src/client/Client.cpp.s
 
 CMakeFiles/Client.dir/src/client/Client.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Client.dir/src/client/Client.cpp.o.provides.build: CMakeFiles/Client.
 
 CMakeFiles/Client.dir/src/client/Game.cpp.o: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/src/client/Game.cpp.o: ../src/client/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Client.dir/src/client/Game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/Game.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Client.dir/src/client/Game.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/Game.cpp.o -c /Users/david/CLionProjects/Reversi/src/client/Game.cpp
 
 CMakeFiles/Client.dir/src/client/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/src/client/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Game.cpp > CMakeFiles/Client.dir/src/client/Game.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/client/Game.cpp > CMakeFiles/Client.dir/src/client/Game.cpp.i
 
 CMakeFiles/Client.dir/src/client/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/src/client/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Game.cpp -o CMakeFiles/Client.dir/src/client/Game.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/client/Game.cpp -o CMakeFiles/Client.dir/src/client/Game.cpp.s
 
 CMakeFiles/Client.dir/src/client/Game.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Client.dir/src/client/Game.cpp.o.provides.build: CMakeFiles/Client.di
 
 CMakeFiles/Client.dir/src/client/GameFlow.cpp.o: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/src/client/GameFlow.cpp.o: ../src/client/GameFlow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Client.dir/src/client/GameFlow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/GameFlow.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GameFlow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Client.dir/src/client/GameFlow.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/GameFlow.cpp.o -c /Users/david/CLionProjects/Reversi/src/client/GameFlow.cpp
 
 CMakeFiles/Client.dir/src/client/GameFlow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/src/client/GameFlow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GameFlow.cpp > CMakeFiles/Client.dir/src/client/GameFlow.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/client/GameFlow.cpp > CMakeFiles/Client.dir/src/client/GameFlow.cpp.i
 
 CMakeFiles/Client.dir/src/client/GameFlow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/src/client/GameFlow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GameFlow.cpp -o CMakeFiles/Client.dir/src/client/GameFlow.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/client/GameFlow.cpp -o CMakeFiles/Client.dir/src/client/GameFlow.cpp.s
 
 CMakeFiles/Client.dir/src/client/GameFlow.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/Client.dir/src/client/GameFlow.cpp.o.provides.build: CMakeFiles/Clien
 
 CMakeFiles/Client.dir/src/client/GenericLogic.cpp.o: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/src/client/GenericLogic.cpp.o: ../src/client/GenericLogic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Client.dir/src/client/GenericLogic.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/GenericLogic.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GenericLogic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Client.dir/src/client/GenericLogic.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/GenericLogic.cpp.o -c /Users/david/CLionProjects/Reversi/src/client/GenericLogic.cpp
 
 CMakeFiles/Client.dir/src/client/GenericLogic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/src/client/GenericLogic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GenericLogic.cpp > CMakeFiles/Client.dir/src/client/GenericLogic.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/client/GenericLogic.cpp > CMakeFiles/Client.dir/src/client/GenericLogic.cpp.i
 
 CMakeFiles/Client.dir/src/client/GenericLogic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/src/client/GenericLogic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/GenericLogic.cpp -o CMakeFiles/Client.dir/src/client/GenericLogic.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/client/GenericLogic.cpp -o CMakeFiles/Client.dir/src/client/GenericLogic.cpp.s
 
 CMakeFiles/Client.dir/src/client/GenericLogic.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/Client.dir/src/client/GenericLogic.cpp.o.provides.build: CMakeFiles/C
 
 CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.o: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.o: ../src/client/HumanPlayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/HumanPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.o -c /Users/david/CLionProjects/Reversi/src/client/HumanPlayer.cpp
 
 CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/HumanPlayer.cpp > CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/client/HumanPlayer.cpp > CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.i
 
 CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/HumanPlayer.cpp -o CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/client/HumanPlayer.cpp -o CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.s
 
 CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/Client.dir/src/client/HumanPlayer.cpp.o.provides.build: CMakeFiles/Cl
 
 CMakeFiles/Client.dir/src/client/main.cpp.o: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/src/client/main.cpp.o: ../src/client/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Client.dir/src/client/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/main.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Client.dir/src/client/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/main.cpp.o -c /Users/david/CLionProjects/Reversi/src/client/main.cpp
 
 CMakeFiles/Client.dir/src/client/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/src/client/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/main.cpp > CMakeFiles/Client.dir/src/client/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/client/main.cpp > CMakeFiles/Client.dir/src/client/main.cpp.i
 
 CMakeFiles/Client.dir/src/client/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/src/client/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/main.cpp -o CMakeFiles/Client.dir/src/client/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/client/main.cpp -o CMakeFiles/Client.dir/src/client/main.cpp.s
 
 CMakeFiles/Client.dir/src/client/main.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/Client.dir/src/client/main.cpp.o.provides.build: CMakeFiles/Client.di
 
 CMakeFiles/Client.dir/src/client/Lobby.cpp.o: CMakeFiles/Client.dir/flags.make
 CMakeFiles/Client.dir/src/client/Lobby.cpp.o: ../src/client/Lobby.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Client.dir/src/client/Lobby.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/Lobby.cpp.o -c /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Lobby.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Client.dir/src/client/Lobby.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Client.dir/src/client/Lobby.cpp.o -c /Users/david/CLionProjects/Reversi/src/client/Lobby.cpp
 
 CMakeFiles/Client.dir/src/client/Lobby.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Client.dir/src/client/Lobby.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Lobby.cpp > CMakeFiles/Client.dir/src/client/Lobby.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/david/CLionProjects/Reversi/src/client/Lobby.cpp > CMakeFiles/Client.dir/src/client/Lobby.cpp.i
 
 CMakeFiles/Client.dir/src/client/Lobby.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Client.dir/src/client/Lobby.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omerz/CLionProjects/c++/ex7/Reversi/src/client/Lobby.cpp -o CMakeFiles/Client.dir/src/client/Lobby.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/david/CLionProjects/Reversi/src/client/Lobby.cpp -o CMakeFiles/Client.dir/src/client/Lobby.cpp.s
 
 CMakeFiles/Client.dir/src/client/Lobby.cpp.o.requires:
 
@@ -325,7 +325,7 @@ Client: CMakeFiles/Client.dir/src/client/main.cpp.o
 Client: CMakeFiles/Client.dir/src/client/Lobby.cpp.o
 Client: CMakeFiles/Client.dir/build.make
 Client: CMakeFiles/Client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -351,6 +351,6 @@ CMakeFiles/Client.dir/clean:
 .PHONY : CMakeFiles/Client.dir/clean
 
 CMakeFiles/Client.dir/depend:
-	cd /home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omerz/CLionProjects/c++/ex7/Reversi /home/omerz/CLionProjects/c++/ex7/Reversi /home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug /home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug /home/omerz/CLionProjects/c++/ex7/Reversi/cmake-build-debug/CMakeFiles/Client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/david/CLionProjects/Reversi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/david/CLionProjects/Reversi /Users/david/CLionProjects/Reversi /Users/david/CLionProjects/Reversi/cmake-build-debug /Users/david/CLionProjects/Reversi/cmake-build-debug /Users/david/CLionProjects/Reversi/cmake-build-debug/CMakeFiles/Client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Client.dir/depend
 
