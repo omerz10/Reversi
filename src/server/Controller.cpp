@@ -32,7 +32,7 @@ void executeEnvelope(ClientThread* clientT, string command) {
 
 void *handleClient(void *data) {
     ClientData *cData = (ClientData *)data;
-    //write(cData->clientThread.clientSocket, "You connected to server",DATALEN);
+    write(cData->clientThread.clientSocket, "You connected to server",DATALEN);
     // get command from client
     char buffer[DATALEN] = "";
     string commandString;

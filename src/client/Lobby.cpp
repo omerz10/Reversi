@@ -131,7 +131,7 @@ void Lobby::runOnlineGame(Client *client, Board *board, GenericLogic *gameLogic)
     bool flag = false;
     int selection;
     cout << "Waiting for server response" << endl;
-    //read(client->getClientSock(), buffer, DATALEN);
+    read(client->getClientSock(), buffer, DATALEN);
     cout << "Connected to server" << endl;
 
     do {
