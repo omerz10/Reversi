@@ -272,7 +272,7 @@ void Lobby::runOnlineGame(Client *client, Board *board, GenericLogic *gameLogic)
         client->setID(1);
         gameFlow.playOnline();
     // the client got "2" from server
-    } else if(player == 2) {
+    } else if (player == 2) {
         HumanPlayer p1 = HumanPlayer('O', board, gameLogic);
         HumanPlayer p2 = HumanPlayer('X', board, gameLogic);
         Game game = Game(&p1, &p2);

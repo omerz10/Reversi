@@ -13,8 +13,14 @@ private:
     void *arg;
 
 public:
+
+
     Task(void * (*func)(void *arg), void* arg);
     virtual ~Task() {}
+
+    /**
+     Executes the task.
+     */
     void execute();
 
 };

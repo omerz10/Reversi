@@ -24,8 +24,11 @@ private:
 
 public:
     ThreadPool(int threadsNum);
+
     void addTask(Task *task);
+
     void terminate();
+
     virtual ~ThreadPool();
 
 
