@@ -14,8 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="03dd8045-1b87-459d-af6e-7758d5149dce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/Lobby.cpp" afterPath="$PROJECT_DIR$/src/client/Lobby.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/Task.h" afterPath="$PROJECT_DIR$/src/server/Task.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/ThreadPool.h" afterPath="$PROJECT_DIR$/src/server/ThreadPool.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -28,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EndCommand.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/EndCommand.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ListGamesCommand.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/ListGamesCommand.h">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,11 +66,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ThreadPool.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/ThreadPool.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+              <folding>
+                <element signature="e#40#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="StartCommand.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/StartCommand.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="24" column="7" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="146">
+              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="24" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -91,8 +91,8 @@
       <file leaf-file-name="ThreadPool.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server/ThreadPool.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="-6">
+              <caret line="27" column="55" lean-forward="false" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
               <folding>
                 <element signature="e#99#118#0" expanded="true" />
               </folding>
@@ -103,8 +103,8 @@
       <file leaf-file-name="Task.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/Task.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="266">
+              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -265,7 +265,7 @@
       <workItem from="1516538956884" duration="3861000" />
       <workItem from="1516716348989" duration="1229000" />
       <workItem from="1516755224350" duration="104000" />
-      <workItem from="1516883687161" duration="525000" />
+      <workItem from="1516883687161" duration="737000" />
     </task>
     <task id="LOCAL-00001" summary="first commit for ex7">
       <created>1516214725060</created>
@@ -288,11 +288,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516883721172</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1516884227837</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516884227837</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22865000" />
+    <option name="totallyTimeSpent" value="23077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="712" extended-state="6" />
@@ -604,16 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/ThreadPool.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-          <folding>
-            <element signature="e#40#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Controller.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-862">
@@ -734,26 +731,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/StartCommand.h">
+    <entry file="file://$PROJECT_DIR$/src/server/ThreadPool.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="7" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="24" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="371">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="e#40#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Task.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="266">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/StartCommand.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="24" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/ThreadPool.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="-6">
+          <caret line="27" column="55" lean-forward="false" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
           <folding>
             <element signature="e#99#118#0" expanded="true" />
           </folding>

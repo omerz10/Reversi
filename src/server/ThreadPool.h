@@ -23,12 +23,27 @@ private:
     static void *execute(void *arg);
 
 public:
+    /**
+     * Constructor.
+     * @param threadsNum number of threads to generate.
+     */
     ThreadPool(int threadsNum);
 
+    /**
+    Adds a given task to the threadpool.
+
+     @param task task by ref
+     */
     void addTask(Task *task);
 
+    /**
+     * Terminates the threadpool.
+     */
     void terminate();
 
+    /**
+     * Deconstructor.
+     */
     virtual ~ThreadPool();
 
 
